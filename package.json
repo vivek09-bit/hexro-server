@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "server": "live-server public --host=0.0.0.0 --port=3000 --middleware=./disable-browser-cache.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
